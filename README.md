@@ -50,6 +50,8 @@ ex) 다음과 같이 유량이 주어진 그래프가 있다고 가정해보자
 
 ![image](https://user-images.githubusercontent.com/100903674/164586271-9582919f-0b84-4725-bae8-06ab93ffab51.png)
 
+더이상 남은 경로가 없으므로 A부터 B까지 최대 유량은 8이다.
+
 
 
 
