@@ -95,11 +95,20 @@ ex)
 
 다음과 같이 그래프가 주어졌을때 A->C->D->B 로 DFS를 통해 결정했다면
 
+![image](https://user-images.githubusercontent.com/100903674/164725998-f96fe928-1daf-45e8-b890-3a12df4218e9.png)
 
 
+여유용량이 경로 A->D->C->B 로 DFS를 통해 결정했다면
+![image](https://user-images.githubusercontent.com/100903674/164726432-ea764eb2-92de-4766-abbe-48e6ab1f4a61.png)
 
+C와 D간의 유량이 상쇄되므로 
 
+  다시 A->C->D->B 로 DFS를 통해 결정했다면
 
+![image](https://user-images.githubusercontent.com/100903674/164727052-184d4979-4b7a-420a-8271-b6f73a231a8d.png)
 
+다시 A->D->C->B 로 DFS를 통해 결정했다면
+
+![image](https://user-images.githubusercontent.com/100903674/164727318-0fbddc26-a318-41ac-8295-75ddfe949da0.png)
 
 
