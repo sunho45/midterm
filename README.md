@@ -99,6 +99,7 @@ ex)
 
 
 여유용량이 경로 A->D->C->B 로 DFS를 통해 결정했다면
+
 ![image](https://user-images.githubusercontent.com/100903674/164726432-ea764eb2-92de-4766-abbe-48e6ab1f4a61.png)
 
 C와 D간의 유량이 상쇄되므로 
