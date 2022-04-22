@@ -40,24 +40,11 @@ ex) 다음과 같이 유량이 주어진 그래프가 있다고 가정해보자.
 A가 1의 위치 B가 4의 위치 C가 2의 위치  D가 3의 위치라 가정
 
 
-![image](https://user-images.githubusercontent.com/100903674/164585480-9a6d78b5-62e8-4414-8114-5ac88115772b.png)
 
-
-우선 A-C-B경로로 가게 되면 A-C-B 경로의 최대 유량인 4가 각각 A-C ,C-B 간선의 남은 용량에 더해진다.
-
-![image](https://user-images.githubusercontent.com/100903674/164586027-dec1a299-cb69-473e-b010-141322758343.png)
-
-
-그다음 A-D-B 경로로 가면 A-D-B 경로의 최대 유량인 4가 각각 A-D, D-B간선의 남은 용량에 더해진다.
-
-![image](https://user-images.githubusercontent.com/100903674/164586271-9582919f-0b84-4725-bae8-06ab93ffab51.png)
-
-더이상 남은 경로가 없으므로 A부터 B까지 최대 유량은 8이다.
-
-하지만 A-C-D-B 를 먼저 탐색하게 되면
+DFS를 통해 A-C-D-B 를 먼저 탐색하게 되면
 ![image](https://user-images.githubusercontent.com/100903674/164612935-4e6957f9-0ade-4b27-8130-625a572df5fd.png)
 
-최대 유량은 4가 되고 만다. 이를 해결하기 위해 유량의 대칭을 이용하면 된다. (F(C,D)= C에서 D로의 유량 F(D,C)= D에서 C로의 유량) 
+최대 유량은 4가 된다. 하지만 유량의 대칭을 통해 좀더 많은 유량을 뽑아낼 수 있다. (F(C,D)= C에서 D로의 유량 F(D,C)= D에서 C로의 유량) 
 F(C,D)=-F(D,C)임을 이용하여 F(D,C)의 유량은 -4임을 알수 있다. 
 
 
@@ -70,7 +57,7 @@ D-C 간선의 용량은 실제하지 않으므로 0이다. 이는 허수이므�
 
 ![image](https://user-images.githubusercontent.com/100903674/164619560-4385e413-8ab3-42cf-838d-da5f69ed9bfc.png)
 
-
+결과적으로 (C,D)의 유량과 (D,C)의 유량이 상쇄되어 
 
 최대 유량은 8인것을 알 수 있다.
 
