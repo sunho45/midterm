@@ -112,3 +112,22 @@ C와 D간의 유량이 상쇄되므로
 ![image](https://user-images.githubusercontent.com/100903674/164727318-0fbddc26-a318-41ac-8295-75ddfe949da0.png)
 
 
+
+
+
+최종적으로
+
+![image](https://user-images.githubusercontent.com/100903674/164727696-cc7e4add-381e-498d-80bc-cce7ccddcb7f.png)
+다음과 같이 만들기 위해 포드 풀커슨 알고리즘은 N이 크면 클수록 수많은 연산횟수를 거쳐야 한다.
+
+DFS 알고리즘을 기반으로 한 포드 풀커슨 알고리즘의 약점을 보완하기 위해 추후에
+
+BFS 알고리즘을 기반으로한 에드몬드 카프 알고리즘이 나왔다.
+
+
+
+
+
+
+
+
