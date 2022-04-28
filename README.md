@@ -43,6 +43,7 @@ Source(시작점)에서 Sink(도착점)으로  얼마나 많은 유량을 동시
 
 ex) 다음과 같이 유량이 주어진 그래프가 있다고 가정해보자.
 A가 1의 위치 B가 4의 위치 C가 2의 위치  D가 3의 위치라 가정
+![image](https://user-images.githubusercontent.com/100903674/165752409-84ec508d-3e84-48ec-9b7f-3ff6cacbbd16.png)
 
 
 
