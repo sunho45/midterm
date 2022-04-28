@@ -105,7 +105,7 @@ int main() {
     
 
     
-    maxFlow(1, 4);
+    maxFlow(1, 4);// 1~4인 정점을 그래프에 추가
 
     
     printf("최대 유량 : %d\n", result);
